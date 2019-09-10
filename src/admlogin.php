@@ -11,14 +11,14 @@
     <div>
       <form method="post">
         <img src="image/logo.png">
-        <H1>Login</h1>
+        <H1>Login</H1>
         <input type="text" name="Username" placeholder="Username" class="textbox" required>
         <br>
         <br>
         <input type="password" name="Password" placeholder="Password" class="textbox" required>
         <br>
         <br>
-        <button type="submit">Sign in</a>
+        <button type="submit">Sign in</button>
 
       </form>
     </div>
