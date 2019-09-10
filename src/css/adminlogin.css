@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+  background-image:url('../image/img1.jpg');
+  background-repeat: round;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+div{
+  margin: 180px;
+  border: 2px solid white;
+  border-radius: 12px;
+  width: 350px;
+  height: 450px;
+  text-align: center;
+  color: white;
+}
+
+button{
+  padding: 12px 35px;
+  border-radius: 13px;
+  background: none;
+  color: white;
+}
+
+img{
+  margin: 35px;
+  width: 100px;
+}
+
+.textbox{
+  padding: 9px 45px;
+  border-radius: 13px;
+  background: none;
+  color: white;
+}
