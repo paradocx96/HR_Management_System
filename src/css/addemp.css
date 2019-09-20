@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+body{
+  background-image:url('../image/img2.jpg');
+  background-repeat:no-repeat;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+/*header*/
+.div1{
+  margin: 50px;
+  width:auto;
+  background-color: white;
+  min-height: 810px;
+  min-width: 503px;
+}
+
+.div3{
+  min-height: 600px;
+  background-image:url('../image/img3.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.div2{
+  min-width: 503px;
+}
+
+.table1{
+  background-color: #ffa366;
+}
+.mainlogo{
+  width: 120px;
+  margin: 10px;
+}
+.userlogo{
+  width: 100px;
+}
+
+/*profile logout*/
+.profileimg{
+  position: relative;
+  display: inline-block;
+}
+
+.pidropbtn{
+  background-color: #8c8c8c;
+  color: white;
+  padding: 10px;
+  width: 100px;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.pidropcon{
+  display: none;
+  position: absolute;
+  background-color: #ff751a;
+  font-size: 10px;
+  width: 66px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.pidropcon .a{
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+}
+.pidropcon .a:hover{
+  background-color: #f1f1f1;
+}
+
+.profileimg:hover .pidropcon{
+  display: block;
+}
+
+.profileimg:hover .pidropbtn{
+  background-color: #3e8e41;
+}
+
+/*Main Navigation*/
+/*Navigation*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #404040;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  min-width: 90px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #ff751a;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #bfbfbf;
+  min-width: 90px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+  background-image:url('../image/img2.jpg');
+  background-repeat:no-repeat;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+div{
+  margin: 140px;
+  border: 2px solid white;
+  border-radius: 12px;
+  width: 500px;
+  height: 560px;
+  text-align: center;
+  color: white;
+}
+
+h1, h3{
+  color: #404040;
+}
+
+button{
+  padding: 10px 35px;
+  border-radius: 13px;
+  background: none;
+  color: white;
+  border: solid 2px;
+  font-size: 15px;
+}
+
+img{
+  margin: 15px;
+  width: 200px;
+}
+
+.textbox{
+  padding: 9px 45px;
+  border-radius: 13px;
+  background: none;
+  color: white;
+}
+
+.lp{
+  color: #404040;
+  font-size: 12px;
+}
