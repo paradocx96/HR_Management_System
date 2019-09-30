@@ -7,29 +7,41 @@
     <title>ABC Company</title>
   </head>
   <body>
-
-    <div class="div1">
-      <div class="header">
-        <table class="table1">
+  <div class="header">
+    <table>
           <tr>
-            <td width="150px"><img src="image/logo.jpg" class="mainlogo"></td>
-            <td width="750px"><h1>CEMEX Pro<br>Human Resourse Management System</h1></td>
-            <td width="100px"><img src="image/user.png" class="userlogo"></td>
-            <td width="92px">
+
+            <td width="5%"><img src="image/logo.jpg" class="mainlogo"></td>
+            <td width="70%">
+              <center>
+              <div class="searchbox">
+                <form>
+                  <input type="search" placeholder="Search here">
+                </form>
+              </div>
+            </center>
+            </td>
+            <td width="5%"><img src="image/user.png" class="userlogo"></td>
+            <td width="5%">
+
               <div class="profileimg">
                 <a class="pidropbtn a" href="#">Username</a>
                 <div class="pidropcon">
                   <a class="a" href="profile.php">Profile</a>
-                  <a class="a" href="#">Setting</a>
-                  <a class="a" href="#">Logout</a>
+                  <a class="a" href="adminsetting.php">Setting</a>
+                  <a class="a" href="logout.php">Logout</a>
                 </div>
               </div>
+
             </td>
+
           </tr>
         </table>
-      </div>
+  </div>
+
+    <div class="div1">
       <div class="div2">
-        <ul>
+        <ul id="mainNav">
           <li><a href="dashboard.php">Dashboard</a></li>
           <li class="dropdown">
             <a href="javascript:void(0)" class="dropbtn">Personal</a>
@@ -41,9 +53,8 @@
           <li class="dropdown">
             <a href="performance.php" class="dropbtn">Performance</a>
             <div class="dropdown-content">
-              <a href="#">Company</a>
-              <a href="#">Employer</a>
-              <a href="#">Employee</a>
+              <a href="pfcompany.php">Company</a>
+              <a href="pfemployee.php">Employee</a>
             </div>
           </li>
           <li class="dropdown">
@@ -57,14 +68,59 @@
           <li class="dropdown">
             <a href="javascript:void(0)" class="dropbtn">Recruitment</a>
             <div class="dropdown-content">
-              <a href="#">Candidates</a>
-              <a href="#">Vacancies</a>
+              <a href="candidate.php">Candidates</a>
+              <a href="vacancies.php">Vacancies</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Payroll</a>
+            <div class="dropdown-content">
+              <a href="empsalary.php">Employee Salary</a>
+              <a href="payslip.php">Payslip</a>
+              <a href="payrollitem.php">Payroll Items</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Report</a>
+            <div class="dropdown-content">
+              <a href="consulting.php">Consulting</a>
+              <a href="reproblem.php">Report Problem</a>
+              <a href="rereview.php">Report Review</a>
             </div>
           </li>
         </ul>
     </div>
 
-    <H1>performance</H1>
+    <!--body content-->
+
+    <div class="div3">
+
+      <H1 class="pageTitle">Performance Summary</H1>
+
+      <div id="pageNav">
+        <ul>
+          <li>Dashboard</li>
+          <li> / </li>
+          <li>Performance</li>
+        </ul>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -73,5 +129,11 @@
 
 
     </div>
+    <!--end of body content-->
+  </div>
+  <footer>
+    <a href="dashboard.php">HRMSystem</a> &copy; 2019 All Rights Reserved.<br/><a href="terms.php">Terms & Conditions</a>-<a href="privacy.php">Privacy & Policies</a><br/>Version 1.0.0.1
+  </footer>
+
   </body>
 </html>

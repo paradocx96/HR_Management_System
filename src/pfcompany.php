@@ -2,12 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/addemp.css">
-    <script src="javaScript/addemp.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/pfcompany.css">
+    <script src="javaScript/pfcompany.js"></script>
     <title>ABC Company</title>
   </head>
   <body>
-
   <div class="header">
     <table>
           <tr>
@@ -92,54 +91,21 @@
         </ul>
     </div>
 
-    <!--content-->
+    <!--body content-->
 
-    <div class="div5">
-    <table>
-      <tr>
-        <td width="900px"><H1>Add Employee</H1></td>
-        <td><button onclick="location.href='allemp.php';" class="btn1" href="addemp.php">All Employee</button></td>
-      </tr>
-    </table>
-  </div>
+    <div class="div3">
 
+      <H1 class="pageTitle">Company Performance</H1>
 
-    <div>
-      <form method="post">
-        <fieldset>
-          <legend>Personal Informations</legend>
-          <table>
-            <tr>
-              <td>
-                <label for="fname">First Name</label><br>
-                <input type="text" id="fname" name="firstname" required>
-              </td>
-              <td>
-                <label for="lname">Last Name</label><br>
-                <input type="text" id="lname" name="lastname" required>
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <label for="birthday">Birthday</label><br>
-                <input type="date" id="birthday" name="birthday" required>
-              </td>
-              <td>
-                <label for="gender">Gender</label><br>
-                <select id="gender" name="gender">
-                  <option value="Male" required><p>Male</p></option>
-                  <option value="Female" required><p>Female</p></option>
-                </select>
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <label for="address">Address</label><br>
-                <input type="text"id="address" name="address" required>
-              </td>
-            </tr>
+      <div id="pageNav">
+        <ul>
+          <li>Dashboard</li>
+          <li> / </li>
+          <li>Performance</li>
+          <li> / </li>
+          <li>Company Performance</li>
+        </ul>
+      </div>
 
 
 
@@ -164,17 +130,7 @@
 
 
 
-
-          </table>
-        </fieldset>
-      </form>
     </div>
-
-
-
-
-
-
     <!--end of body content-->
   </div>
   <footer>

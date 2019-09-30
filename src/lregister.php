@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/lregister.css">
-    <script src="javaScript/index.js"></script>
+    <script src="javaScript/lregister.js"></script>
     <title>Register - HRM</title>
   </head>
   <body>

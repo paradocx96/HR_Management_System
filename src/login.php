@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/login.css">
-    <script src="javaScript/index.js"></script>
+    <script src="javaScript/login.js"></script>
     <title>Login - HRM</title>
   </head>
   <body>
@@ -24,6 +24,7 @@
         <br>
         <p class="lp">Don't have an account yet?<a href="lregister.php">Register</a></p>
       </form>
+      <a href="terms.php">Terms and Conditions</a> | <a href="privacy.php">Privacy Policies</a>
     </div>
   </center>
   </body>

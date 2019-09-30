@@ -98,6 +98,9 @@ input[type=search]:focus {
   background-color: #7aacff;
 }
 
+
+
+
 /*navigation and body content*/
 .div1{
   font-family: 'Varela', sans-serif;
@@ -113,15 +116,6 @@ input[type=search]:focus {
   min-width: 503px;
 }
 
-/*dashboard*/
-.div3{
-  margin-top: 5px;
-  border-radius: 12px;
-  min-height: 600px;
-  background-color: white;
-}
-
-
 .mainlogo{
   width: 50px;
   margin: 5px;
@@ -129,6 +123,7 @@ input[type=search]:focus {
 .userlogo{
   width: 50px;
 }
+
 
 /*Main Navigation*/
 /*Navigation*/
@@ -205,33 +200,36 @@ footer a{
     margin: 10px;
 }
 
-#pageNav{
+#pageNav ul{
   list-style-type: none;
 }
 
-#pageNav li{
-  font-size: 9px;
+#pageNav ul li{
+  background-color: yellow;
+  font-size: 11px;
+  width:auto;
   color: black;
+  float: left;
+}
+
+/*body content*/
+.div3{
+  margin-top: 5px;
+  border-radius: 12px;
+  min-height: 600px;
+  background-color: white;
 }
 
 
-
-
-/*addemp*/
-.btn1{
-  text-decoration:none;
-  border-radius: 50px;
-  font-size: 14px;
-  min-width: 150px;
-  padding: 10px 20px;
-  background-color: #ff9b44;
-  border: 1px solid #ff9b44;
+.divcp{
+  border: solid black 1px;
+  margin: 10px;
+  width:400px;
 }
 
-.div5{
-  width: auto;
-  height: auto;
-  margin: 6px;
-  background: rgb(255,116,98);
-  background: linear-gradient(90deg, rgba(255,116,98,1) 0%, rgba(255,142,80,1) 50%, rgba(255,234,98,1) 100%);
+.btn {
+    border-radius: 50px;
+    font-size: 14px;
+    min-width: 80px;
+    padding: 10px 16px;
 }

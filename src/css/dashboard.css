@@ -1,40 +1,53 @@
 @charset "UTF-8";
 
+/*web fonts*/
+@import url('https://fonts.googleapis.com/css?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+
 body{
   background-image:url('../image/img2.jpg');
-  background-repeat:no-repeat;
+  background-repeat:repeat;
   font-family: Tahoma, Geneva, sans-serif;
 }
 
-/*header*/
-.div1{
-  margin: 50px;
-  width:auto;
-  background-color: white;
-  min-height: 810px;
-  min-width: 503px;
+
+/*header search and profile setting*/
+.header{
+  font-family: 'Roboto', sans-serif;
+  border-radius: 12px;
+  margin-bottom: 5px;
+  padding: 2px;
+  background-color: #6fbdff;
 }
 
-.div3{
-  min-height: 600px;
-  background-image:url('../image/img3.jpg');
+/*Search*/
+.searchbox{
+  width: auto;
+}
+
+input[type=search] {
+  width: 200px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  border-radius: 50px;
+  font-size: 11px;
+  background-color:none;
+  background-image: url('../image/searchicon.png');
+  background-position: 10px 10px;
   background-repeat: no-repeat;
-  background-size:cover;
+  padding: 10px 20px 10px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
 }
 
-.div2{
-  min-width: 503px;
-}
-
-.table1{
-  background-color: #ffa366;
-}
-.mainlogo{
-  width: 120px;
-  margin: 10px;
-}
-.userlogo{
-  width: 100px;
+input[type=search]:focus {
+  width: 40%;
 }
 
 /*profile logout*/
@@ -44,8 +57,10 @@ body{
 }
 
 .pidropbtn{
-  background-color: #8c8c8c;
+  background-color: #3473c9;
+  text-decoration: none;
   color: white;
+  border-radius: 12px;
   padding: 10px;
   width: 100px;
   font-size: 10px;
@@ -56,8 +71,9 @@ body{
 .pidropcon{
   display: none;
   position: absolute;
-  background-color: #ff751a;
+  background-color: #7aacff;
   font-size: 10px;
+  text-align: center;
   width: 66px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -68,9 +84,10 @@ body{
   padding: 5px;
   text-decoration: none;
   display: block;
+  border-radius: 12px;
 }
 .pidropcon .a:hover{
-  background-color: #f1f1f1;
+  background-color: white;
 }
 
 .profileimg:hover .pidropcon{
@@ -78,21 +95,50 @@ body{
 }
 
 .profileimg:hover .pidropbtn{
-  background-color: #3e8e41;
+  background-color: #7aacff;
 }
+
+
+
+
+/*navigation and body content*/
+.div1{
+  font-family: 'Varela', sans-serif;
+  margin:25px;
+  width:auto;
+  min-height: 600px;
+  min-width: 503px;
+}
+
+/*Navigation*/
+.div2{
+  border-radius: 12px;
+  min-width: 503px;
+}
+
+.mainlogo{
+  width: 50px;
+  margin: 5px;
+}
+.userlogo{
+  width: 50px;
+}
+
 
 /*Main Navigation*/
 /*Navigation*/
 
-ul {
+#mainNav {
   list-style-type: none;
+  border-radius: 12px;
+  font-size: 11px;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #404040;
+  background-color: #3473c9;
 }
 
-li {
+#mainNav li {
   float: left;
 }
 
@@ -100,13 +146,13 @@ li a, .dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
-  min-width: 90px;
+  min-width: 100px;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: #ff751a;
+  background-color: #7aacff;
 }
 
 li.dropdown {
@@ -116,7 +162,7 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #bfbfbf;
+  background-color: #ffffff;
   min-width: 90px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -131,9 +177,80 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+  background-color: #41c8ff;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/*FOOTER*/
+footer {
+  font-size: 10px;
+  color: lightgray;
+  text-align: center;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+/*Page title & navigation*/
+.pageTitle{
+    margin: 10px;
+}
+
+#pageNav{
+  list-style-type: none;
+}
+
+#pageNav li{
+  font-size: 9px;
+  color: black;
+}
+
+
+/*DASHBOARD content*/
+
+/*body content*/
+.div3{
+  margin-top: 5px;
+  border-radius: 12px;
+  min-height: 600px;
+  background-color: white;
+}
+
+
+#bodyul{
+  list-style-type: none;
+  background-color: black;
+}
+#bodyul li{
+  float: left;
+}
+
+
+.d1{
+  margin: 20px;
+  width: 175px;
+  height: 100px;
+  background-color: #ff5959;
+}
+.d2{
+  margin: 20px;
+  width: 175px;
+  height: 100px;
+  background-color: #39ff7d;
+}
+.d3{
+  margin: 20px;
+  width: 175px;
+  height: 100px;
+  background-color: #ffc339;
+}
+.d4{
+  margin: 20px;
+  width: 175px;
+  height: 100px;
+  background-color: #39e0ff;
 }
