@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+/*web fonts*/
+@import url('https://fonts.googleapis.com/css?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+  background-image:url('../image/img2.jpg');
+  background-repeat:repeat;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+
+/*header search and profile setting*/
+.header{
+  font-family: 'Roboto', sans-serif;
+  border-radius: 12px;
+  margin-bottom: 5px;
+  padding: 2px;
+  background-color: #6fbdff;
+}
+
+/*Search*/
+.searchbox{
+  width: auto;
+}
+
+input[type=search] {
+  width: 200px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  border-radius: 50px;
+  font-size: 11px;
+  background-color:none;
+  background-image: url('../image/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=search]:focus {
+  width: 40%;
+}
+
+/*profile logout*/
+.profileimg{
+  position: relative;
+  display: inline-block;
+}
+
+.pidropbtn{
+  background-color: #3473c9;
+  text-decoration: none;
+  color: white;
+  border-radius: 12px;
+  padding: 10px;
+  width: 100px;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.pidropcon{
+  display: none;
+  position: absolute;
+  background-color: #7aacff;
+  font-size: 10px;
+  text-align: center;
+  width: 66px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.pidropcon .a{
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+  border-radius: 12px;
+}
+.pidropcon .a:hover{
+  background-color: white;
+}
+
+.profileimg:hover .pidropcon{
+  display: block;
+}
+
+.profileimg:hover .pidropbtn{
+  background-color: #7aacff;
+}
+
+
+
+
+/*navigation and body content*/
+.div1{
+  font-family: 'Varela', sans-serif;
+  margin:25px;
+  width:auto;
+  min-height: 600px;
+  min-width: 503px;
+}
+
+/*Navigation*/
+.div2{
+  border-radius: 12px;
+  min-width: 503px;
+}
+
+.mainlogo{
+  width: 50px;
+  margin: 5px;
+}
+.userlogo{
+  width: 50px;
+}
+
+
+/*Main Navigation*/
+/*Navigation*/
+
+#mainNav {
+  list-style-type: none;
+  border-radius: 12px;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3473c9;
+}
+
+#mainNav li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  min-width: 100px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #7aacff;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 90px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #41c8ff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*FOOTER*/
+footer {
+  font-size: 10px;
+  color: lightgray;
+  text-align: center;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+/*Page title & navigation*/
+.pageTitle{
+    margin: 10px;
+}
+
+#pageNav ul{
+  list-style-type: none;
+}
+
+#pageNav ul li{
+  background-color: yellow;
+  font-size: 11px;
+  width:auto;
+  color: black;
+  float: left;
+}
+
+/*body content*/
+.div3{
+  margin-top: 5px;
+  border-radius: 12px;
+  min-height: 600px;
+  background-color: white;
+}
