@@ -26,6 +26,7 @@ body{
   background-color: #6fbdff;
 }
 
+
 /*Search*/
 .searchbox{
   width: auto;
@@ -206,8 +207,9 @@ footer a{
 
 #pageNav ul li{
   background-color: yellow;
-  font-size: 11px;
   width:auto;
+  padding-left: 5px;
+  font-size: 9px;
   color: black;
   float: left;
 }
@@ -218,4 +220,69 @@ footer a{
   border-radius: 12px;
   min-height: 600px;
   background-color: white;
+}
+
+
+#profile ul{
+  list-style-type: none;
+}
+
+
+#profile ul li{
+  float: left;
+}
+
+.profile1{
+  font-family:'Varela',monospace;
+  width: 350px;
+  height: 410px;
+  background-color: #e2e2e2;
+  border: 2px solid lightblue;
+  margin-right: 100px;
+}
+
+#tableinfo {
+  margin-left: 30px;
+}
+#tableinfo tr td {
+
+}
+
+
+.profile21{
+  font-family:'Varela',monospace;
+  width: 500px;
+  height: auto;
+  background-color: #e2e2e2;
+  border: 1px solid lightblue;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+
+.profile22{
+  font-family:'Varela',monospace;
+  width: 500px;
+  height: auto;
+  background-color: #e2e2e2;
+  border: 1px solid lightblue;
+  padding-bottom: 10px;
+}
+
+.profile111{
+  font-family:'Varela',monospace;
+  padding-left: 10px;
+}
+
+.profile11{
+  font-family:'Varela',monospace;
+  padding-left: 25px;
+}
+
+
+.edit{
+  color: gray;
+  width: 50px;
+  padding: 3px;
+  margin-left: 30px;
 }

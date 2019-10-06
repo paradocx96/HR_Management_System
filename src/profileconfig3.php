@@ -10,12 +10,40 @@
     header('Location:login.php');
   }
 ?>
+
+<?php
+$_GET['uid'] = $_SESSION['uid'];
+//submit data
+if(isset($_POST['submit'])) {
+  // Escape user inputs for security
+  $_POST["id"] = $_GET['uid'];
+  $id          = $_POST["id"];
+
+  $query ="DELETE FROM user WHERE id = {$id} LIMIT 1";
+  $result = $conn->query($query);
+    if($result) {
+      echo "<script>
+              alert('Your Profile Delete successfully!!!');
+              window.location.href='login.php';
+            </script>";
+    }
+    else{
+      echo "<script>
+              alert('System Failed!!!');
+              window.location.href='profileconfig3.php';
+            </script>";
+    }
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/empsalary.css">
-    <script src="javaScript/empsalary.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/profileconfig.css">
+    <script src="javaScript/profileconfig.js"></script>
     <title>ABC Company</title>
   </head>
   <body>
@@ -101,43 +129,46 @@
             </div>
           </li>
         </ul>
-
     </div>
 
     <!--body content-->
 
-    <div class="div3">
+    <div class="div33">
 
-      <H1 class="pageTitle">Employee Salary</H1>
+      <H1 class="pageTitle">Profile Configuration</H1>
 
       <div id="pageNav">
         <ul>
           <li>Dashboard</li>
           <li> / </li>
-          <li>Payroll</li>
+          <li>Personal</li>
           <li> / </li>
-          <li>Employee Salary</li>
+          <li>Profile Configuration</li>
         </ul>
       </div>
+      <br>
+      <div id="sidemenu">
+        <div class="menu1">
+          <ul>
+            <li><a href="profileconfig.php">Edit Profile</a></li>
+            <li><a href="profileconfig2.php">Change Password</a></li>
+            <li><a href="profileconfig3.php">Profile Setting</a></li>
+          </ul>
+        </div>
+        <div class="menu2">
+          <H1>Profile Setting</h1>
+            <form action="profileconfig3.php" method="post" class="form">
+              <p>
+                <label for="">Delete Account</label>
+                <button type="submit" name="submit" value="Delete Account">Delete</button>
+              </p>
+            </form>
 
 
 
+          </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      </div>
 
 
 
@@ -151,4 +182,9 @@
   </footer>
 
   </body>
-</html>
+  </html>
+
+  <?php
+    // Close connection
+    mysqli_close($conn);
+  ?>

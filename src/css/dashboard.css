@@ -26,6 +26,7 @@ body{
   background-color: #6fbdff;
 }
 
+
 /*Search*/
 .searchbox{
   width: auto;
@@ -206,7 +207,9 @@ footer a{
 
 #pageNav li{
   font-size: 9px;
+  width:auto;
   color: black;
+  padding-left: 5px;
 }
 
 
@@ -229,28 +232,78 @@ footer a{
   float: left;
 }
 
+#quicklink{
+  margin: 30px;
+  width: auto;
+}
 
+legend{
+  font-style: oblique;
+  font-weight: bold;
+}
+.quickbox{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+}
+
+#boxbox ul{
+  list-style-type: none;
+}
+
+#boxbox ul li{
+  float: left;
+}
+
+.attendancebox{
+  width: 400px;
+  height: 300px;
+  margin: 5px 20px 5px 0;
+}
+
+.leavebox{
+  width: 400px;
+  height: 300px;
+  margin: 5px 20px 5px 0;
+}
+.boxboxclass{
+  width: auto;
+  height: 290px;
+}
 .d1{
-  margin: 20px;
-  width: 175px;
-  height: 100px;
-  background-color: #ff5959;
+  margin:5px 20px 5px 0;
+  box-shadow: 3px 3px 3px grey;
+  width: 150px;
+  height: 75px;
+  background: linear-gradient(to right, #0099ff 0%, #33ccff 100%);
 }
 .d2{
-  margin: 20px;
-  width: 175px;
-  height: 100px;
-  background-color: #39ff7d;
+  margin:5px 20px 5px 0;
+  box-shadow: 3px 3px 3px grey;
+  width: 150px;
+  height: 75px;
+  background: linear-gradient(to right, #0099ff 0%, #33ccff 100%);
 }
 .d3{
-  margin: 20px;
-  width: 175px;
-  height: 100px;
-  background-color: #ffc339;
+  margin:5px 20px 5px 0;
+  box-shadow: 3px 3px 3px grey;
+  width: 150px;
+  height: 75px;
+  background: linear-gradient(to right, #0099ff 0%, #33ccff 100%);
 }
 .d4{
-  margin: 20px;
-  width: 175px;
-  height: 100px;
-  background-color: #39e0ff;
+  margin:5px 20px 5px 0;
+  box-shadow: 3px 3px 3px grey;
+  width: 150px;
+  height: 75px;
+  background: linear-gradient(to right, #0099ff 0%, #33ccff 100%);
+}
+.d5{
+  margin:5px 20px 5px 0;
+  box-shadow: 3px 3px 3px grey;
+  width: 150px;
+  height: 75px;
+  background: linear-gradient(to right, #0099ff 0%, #33ccff 100%);
 }

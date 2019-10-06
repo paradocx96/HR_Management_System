@@ -18,7 +18,7 @@
       <p class="p2">Because the content created by users is public to other users, a DMCA notice clause (or Copyright Infringement ) section is helpful to inform users and copyright authors that, if any content is found to be a copyright infringement, you will respond to any DMCA takedown notices received and you will take down the content.</p>
       <p class="p1">A Limit What Users Can Do clause can inform users that by agreeing to use your service, they’re also agreeing to not do certain things. This can be part of a very long and thorough list in your Terms and Conditions agreements so as to encompass the most amount of negative uses.</p>
       <h5>I AGREE AND I ACCEPT THIS TERMS AND CONDITIONS</h5>
-      <a href="login.php">Login</a> | <a href="privacy.php">Privacy Policies</a>
+      <a href="dashboard.php">Dashboard</a> | <a href="dprivacy.php">Privacy Policies</a>
     </div>
   </center>
   </body>

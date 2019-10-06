@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+/*web fonts*/
+@import url('https://fonts.googleapis.com/css?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
 body{
   background-image:url('../image/img2.jpg');
   background-repeat:no-repeat;
@@ -7,17 +17,17 @@ body{
 }
 
 div{
-  margin: 140px;
+  margin-top: 80px;
   border: 2px solid white;
   border-radius: 12px;
   width: 500px;
-  height: 560px;
+  min-height: 560px;
   text-align: center;
   color: white;
 }
 
 h1, h3{
-  color: #404040;
+  color: white;
 }
 
 button{
@@ -30,7 +40,7 @@ button{
 }
 
 img{
-  margin: 15px;
+  margin-top: 10px;
   width: 200px;
 }
 
@@ -39,9 +49,10 @@ img{
   border-radius: 13px;
   background: none;
   color: white;
+  text-align: center;
 }
 
 .lp{
-  color: #404040;
+  color: white;
   font-size: 12px;
 }

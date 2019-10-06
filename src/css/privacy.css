@@ -1,9 +1,19 @@
 @charset "UTF-8";
 
+/*web fonts*/
+@import url('https://fonts.googleapis.com/css?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Varela', sans-serif;
+}
+
 body{
   background-image:url('../image/img2.jpg');
   background-repeat:no-repeat;
-  font-family: Tahoma, Geneva, sans-serif;
 }
 
 .div5{
@@ -11,21 +21,18 @@ body{
   padding: 20px;
   border: 2px solid white;
   border-radius: 12px;
-  width: 500px;
+  width: 550px;
   height:auto;
   text-align: center;
   color: white;
 }
 
-.div4{
-  padding: 20px;
-  width: 500px;
-  border: 2px solid white;
-  border-radius: 20px;
+.div5 a{
+  text-decoration: none;
 }
 
-h1, h3{
-  color: #404040;
+h1, h3, H5{
+  color: white;
 }
 
 button{
@@ -49,15 +56,11 @@ img{
   color: white;
 }
 
-.lp{
-  color: #404040;
-  font-size: 12px;
-}
-
 .p1{
   font-family:Arial Verdana;
+  color: lightgray;
 }
 
-.para{
-  color:green;
+.p2{
+  font-family: 'Roboto',sans-serif;
 }

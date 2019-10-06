@@ -1,3 +1,15 @@
+<!--session_start-->
+<?php session_start(); ?>
+<!--include_once-->
+<?php include_once 'dilanga/config.php'; ?>
+<?php include_once 'dilanga/function.php'; ?>
+<!--checking login-->
+<?php
+  //checking if user is logged in
+  if (!isset($_SESSION['uid'])) {
+    header('Location:login.php');
+  }
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -25,10 +37,10 @@
             <td width="5%">
 
               <div class="profileimg">
-                <a class="pidropbtn a" href="#">Username</a>
+                <a class="pidropbtn a" href="#"><?php echo $_SESSION['f_name']; ?></a>
                 <div class="pidropcon">
                   <a class="a" href="profile.php">Profile</a>
-                  <a class="a" href="adminsetting.php">Setting</a>
+                  <a class="a" href="adminsetting.php">About</a>
                   <a class="a" href="logout.php">Logout</a>
                 </div>
               </div>
@@ -93,32 +105,9 @@
 
     <!--body content-->
     <div class="div3">
-      <H1 class="pageTitle">Admin Setting</H1>
+      <H1 class="pageTitle">About</H1>
       <div class="divcp">
-      <form method="post">
-      <h2 align="center">Change Password</H2>
-        <table>
-          <tr>
-            <td><p>Username</p></td>
-            <td><input type="text" name="username" placeholder="Username" class="textbox" required></td>
-          </tr>
-          <tr>
-            <td><p>Current Password</p></td>
-            <td><input type="password" name="Password" placeholder="Current Password" class="textbox" required></td>
-          </tr>
-          <tr>
-            <td><p>New Password</p></td>
-            <td><input type="password" name="newpassword" placeholder="New Password" class="textbox" required></td>
-          </tr>
-          <tr>
-            <td><p>Confirm New Password</p></td>
-            <td><input type="password" name="confnewpassword" placeholder="Confirm New Password" class="textbox" required></td>
-          </tr>
-          <tr>
-            <td><button type="submit" class="btn">Save</button></td>
-          </tr>
-        </table>
-      </form>
+
     </div>
 
 
@@ -126,7 +115,7 @@
   <!--end of body content-->
 </div>
 <footer>
-  <a href="dashboard.php">HRMSystem</a> &copy; 2019 All Rights Reserved.<br/><a href="terms.php">Terms & Conditions</a>-<a href="privacy.php">Privacy & Policies</a><br/>Version 1.0.0.1
+  <a href="dashboard.php">HRMSystem</a> &copy; 2019 All Rights Reserved.<br/><a href="dterms.php">Terms & Conditions</a>-<a href="dprivacy.php">Privacy & Policies</a><br/>Version 1.0.0.1
 </footer>
 
 </body>

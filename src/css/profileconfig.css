@@ -206,16 +206,86 @@ footer a{
 
 #pageNav ul li{
   background-color: yellow;
-  font-size: 11px;
+  font-size: 9px;
   width:auto;
   color: black;
   float: left;
+  padding-left: 5px;
 }
 
 /*body content*/
 .div3{
   margin-top: 5px;
   border-radius: 12px;
-  min-height: 600px;
+  min-height: 820px;
+  max-height: 1500px;
   background-color: white;
+}
+
+.div33{
+  margin-top: 5px;
+  border-radius: 12px;
+  min-height: 600px;
+  max-height: 1500px;
+  background-color: white;
+}
+
+
+/*side menu*/
+#sidemenu{
+  margin: 10px;
+}
+
+#sidemenu div{
+  float: left;
+}
+#sidemenu div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: auto;
+  background-color: #f1f1f1;
+}
+
+#sidemenu div ul li a{
+
+  border: 1px solid black;
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.menu1{
+  border-radius: 12px;
+  height: auto;
+  width: 200px;
+}
+
+.menu2{
+  background-color: lightgray;
+  height: auto;
+  width: 80%;
+  border-radius: 12px;
+  border: 1px solid lightblue;
+  margin-left: 10px;
+  padding-left: 10px;
+  min-width: 600px;
+}
+
+form.form label{
+  width: 20%;
+  float: left;
+}
+
+form.form input{
+  width: 30%;
+}
+
+button{
+  /*top right bottom left*/
+  padding: 5px 20px 5px 20px;
+  border-radius: 6px;
 }

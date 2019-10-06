@@ -1,3 +1,15 @@
+<!--session_start-->
+<?php session_start(); ?>
+<!--include_once-->
+<?php include_once 'dilanga/config.php'; ?>
+<?php include_once 'dilanga/function.php'; ?>
+<!--checking login-->
+<?php
+  //checking if user is logged in
+  if (!isset($_SESSION['uid'])) {
+    header('Location:login.php');
+  }
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -26,10 +38,10 @@
           <td width="5%">
 
             <div class="profileimg">
-              <a class="pidropbtn a" href="#">Username</a>
+              <a class="pidropbtn a" href="#"><?php echo $_SESSION['f_name']; ?></a>
               <div class="pidropcon">
                 <a class="a" href="profile.php">Profile</a>
-                <a class="a" href="adminsetting.php">Setting</a>
+                <a class="a" href="adminsetting.php">About</a>
                 <a class="a" href="logout.php">Logout</a>
               </div>
             </div>
@@ -99,8 +111,8 @@
     <div class="div5">
       <table>
         <tr>
-          <td width="900px"><H1>All Employee</H1></td>
-          <td><button onclick="location.href='addemp.php';" class="btn1" href="addemp.php">Add Employee</button></td>
+          <td width="85%"><H1>All Employee</H1></td>
+          <td width="15%"><button onclick="location.href='addemp.php';" class="btn1" href="addemp.php">Add Employee</button></td>
         </tr>
       </table>
     </div>
@@ -112,7 +124,7 @@
     <!--end of body content-->
   </div>
   <footer>
-    <a href="dashboard.php">HRMSystem</a> &copy; 2019 All Rights Reserved.<br/><a href="terms.php">Terms & Conditions</a>-<a href="privacy.php">Privacy & Policies</a><br/>Version 1.0.0.1
+    <a href="dashboard.php">HRMSystem</a> &copy; 2019 All Rights Reserved.<br/><a href="dterms.php">Terms & Conditions</a>-<a href="dprivacy.php">Privacy & Policies</a><br/>Version 1.0.0.1
   </footer>
 
   </body>

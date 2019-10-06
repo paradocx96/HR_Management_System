@@ -18,7 +18,7 @@
         <p class="p2"> What do we use your information for? </p>
         <p class="p1"> We do not use your information for anything regarding the outside of the company policies.We only use your information to analyze data.</p>
         <h5>I AGREE AND I ACCEPT THIS PRIVACY AND POLICIES</h5>
-        <a href="login.php">Login</a> | <a href="terms.php">Terms and Conditions</a>
+        <a href="dashboard.php">Dashboard</a> | <a href="dterms.php">Terms and Conditions</a>
     </div>
   </center>
   </body>
