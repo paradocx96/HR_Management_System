@@ -1,3 +1,8 @@
-# HRMS-IWT-Assignment
 # Human resource management system
-Technologies used: HTML, PHP, javascript, MySQL database
+## 1st Year 2nd Semester IWT-Assignment
+
+# Technologies used: 
+1. HTML
+2. PHP
+3. javascript
+4. MySQL
