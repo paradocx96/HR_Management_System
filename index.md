@@ -25,6 +25,7 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+[Dashboard](https://github.com/paradocx96/HR_Management_System-IWT/blob/master/src/dashboard.php)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
