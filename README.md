@@ -6,7 +6,7 @@
 ## Technologies used: 
 1. HTML
 2. PHP
-3. javascript
+3. JavaScript
 4. MySQL
 
 ## Contributors
