@@ -3,7 +3,7 @@ function checkpassword(){
   var password2 = register.password2.value;
 
   if (password1 == password2)
-    Location('dilanga/signup.php');
+    Location('utils/signup.php');
 
   else
     alert("Password does not match!!!");

@@ -4,7 +4,7 @@
 ?>
 <!--include_once-->
 <?php
-    include_once 'dilanga/config.php';
+    include_once 'utils/config.php';
 ?>
 <!--checking login-->
 <?php

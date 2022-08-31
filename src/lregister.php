@@ -42,7 +42,7 @@
 
 
 <!--PHP-->
-<?php include_once 'dilanga/config.php'; ?>
+<?php include_once 'utils/config.php'; ?>
 
 <?php
 

@@ -1,7 +1,7 @@
 <?php
 
 //The connection object
-$con=new mysqli("localhost","root","","HRMS");
+$con=new mysqli("localhost","root","root","hrms");
 
 // Check connection
 if($con->connect_error){

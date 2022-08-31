@@ -1,8 +1,8 @@
 <!--session_start-->
 <?php session_start(); ?>
 <!--include_once-->
-<?php include_once 'dilanga/config.php'; ?>
-<?php include_once 'dilanga/function.php'; ?>
+<?php include_once 'utils/config.php'; ?>
+<?php include_once 'utils/function.php'; ?>
 <!--PHP here-->
 <?php
 
