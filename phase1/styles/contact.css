@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  text-align: left;
+  padding:20px;
+  font-size: 30px;
+  color: white;
+}
+header img{
+  width: 200px;
+  height: 200px;
+}
+.headertitle{
+  position: absolute;
+  top: 5px;
+  left: 270px;
+}
+
+/*hr Lines*/
+hr.new1 {
+  border: 2px solid black;
+}
+
+/*First naigation*/
+.firstnavi input[type=text] {
+  float: right;
+  padding: 2px;
+  margin-right: 12px;
+  border: none;
+  font-size: 12px;
+  background-color: #E0E0E0;
+}
+
+.firstnavi a.navi2{
+  display:inline;
+  color:black;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+
+/*Second Navigation*/
+nav{
+  font-size: 11px;
+}
+ul.navi1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li.left1 {
+  float: left;
+}
+li.right1 {
+  float: right;
+}
+li a.navi11 {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a.navi11:hover {
+  background-color: #111;
+}
+
+
+/* DIV CSS for section area*/
+
+.column {
+  float: left;
+  padding: 10px;
+}
+.column.side {
+  width: 28%;
+}
+.column.middle {
+  width: 49%;
+}
+.column.after {
+  width: 23%;
+}
+.row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+
+
+.imageadd{
+  width: 250px;
+  height: 250px;
+}
+
+
+
+
+
+.p1{
+  font-size: 18px;
+  top: inherit;
+  right: 200px;
+}
+.p2{
+  position:inherit;
+  text-align: left;
+  padding:inherit;
+  font-size: 18px;
+}
+.imageloc{
+  width: 250px;
+  height: 250px;
+}
+
+
+.div4{
+  width: 25px;
+  height: 25px;
+}
+
+
+.div5{
+  position:relative;
+  left: 40px;
+  width: auto;
+  height: auto;
+}
+
+/*button*/
+.button {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 150px;
+  height: 50px;
+}
+
+
+
+
+
+
+
+
+/*footer*/
+
+footer {
+  padding: 10px;
+  background-color:#808080;
+  color: black;
+}
+.p5{
+  font-style: italic;
+  font-size: 12.5px;
+}
+.footerrow{
+  content: none;
+  display: table;
+  clear: both;
+}
+
+
+.footerico{
+  width: 50px;
+  height: 50px;
+}
+
+.footercolumn{
+  float: left;
+  width:190px;
+  height: 100px;
+  padding:15px;
+}

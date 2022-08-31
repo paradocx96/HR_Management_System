@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  text-align: left;
+  padding:20px;
+  font-size: 30px;
+  color: white;
+}
+header img{
+  width: 200px;
+  height: 200px;
+}
+H1.absolute1 {
+  position: absolute;
+  top: 5px;
+  left: 270px;
+}
+
+/*hr Lines*/
+hr.new1 {
+  border: 2px solid black;
+}
+
+/*ul navi*/
+nav{
+  font-size: 11px;
+}
+ul.navi1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li.left1 {
+  float: left;
+}
+li.right1 {
+  float: right;
+}
+li a.navi11 {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a.navi11:hover {
+  background-color: #111;
+}
+
+a.navi2{
+  display:inline;
+  color:black;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+
+/* DIV CSS for section area*/
+section{
+  float: left;
+  width: 75%;
+  padding:10px;
+  background-color: white;
+  border: 1px solid black;
+}
+aside{
+  float:right;
+  width: 25%;
+  padding: 10px;
+  background-color: lightblue;
+  border: 1px solid black;
+}
+.divrow{
+  content: none;
+  display: table;
+  clear: both;
+}
+
+.divcolumn{
+  float: left;
+  width:350px;
+  height: 800px;
+  padding:15px;
+  background-color: white;
+}
+
+.divcolumn2{
+  content: none;
+  display: table;
+  clear: both;
+}
+.divrow2{
+  width:auto;
+  height: 400px;
+  padding:15px;
+  background-color: white;
+}
+.imageadd{
+  width: 250px;
+  height: 250px;
+}
+
+
+/*@media screen and (max-width:600px) {
+  .divcolumn{
+    width: 100%;
+  }
+}*/
+
+
+.p1{
+  font-size: 18px;
+  top: inherit;
+  right: 200px;
+}
+.p2{
+  position:inherit;
+  text-align: left;
+  padding:inherit;
+  font-size: 18px;
+}
+.imageloc{
+  width: 250px;
+  height: 250px;
+}
+
+
+.div4{
+  width: 25px;
+  height: 25px;
+}
+.div5{
+  position:relative;
+  left: 40px;
+  width: auto;
+  height: auto;
+}
+
+/*button*/
+.button {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 150px;
+  height: 50px;
+}
+
+/*footer*/
+
+footer {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+.p5{
+  font-style: italic;
+  font-size: 12px;
+}
+.footerrow{
+  content: none;
+  display: table;
+  clear: both;
+}
+.footercolumn{
+  float: left;
+  width:190px;
+  height: 90px;
+  padding:15px;
+}
+
+.footerbutton{
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  width: 100px;
+  height: 32px;
+}

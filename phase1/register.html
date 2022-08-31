@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sign up</title>
+  <link rel="stylesheet" type="text/css" href="styles/register.css">
+  <script src="js/register.js"></script>
+</head>
+
+<body>
+
+<header>
+  <img src="images/logo.png">
+  <H1 class="absolute1">Human Resource<br>Management System</H1>
+</header>
+
+<!--Location and Search bar-->
+<hr class="hr1">
+<div class="firstnavi">
+  <a class="navi2" href="index.html">Home</a> >
+  <a class="navi2" href="register.html">Sign up</a>
+  <input type="text" placeholder="Search..">
+</div>
+
+<hr class="hr1">
+
+<!--Navigation bar-->
+<nav>
+  <ul class="navi1">
+    <li class="left1"><a class="navi11" href="dashboard.html">Dashboard</a></li>
+    
+    <li class="left1"><a class="navi11" href="mainreport.html">Report</a></li>
+    <li class="left1"><a class="navi11" href="contactus.html">Contact Us</a></li>
+    <li class="right1"><a class="navi11" href="login.html">Sign in</a></li>
+    <li class="right1"><a class="navi11" href="register.html">Sign up</a></li>
+  </ul>
+</nav>
+
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+<section>
+<center>
+  <form class="formbackgroud" action="#" method="#">
+        <h2> Employer Registration </h2>
+        <p>Complete the form below to sign up for HRMS </p>
+      	<h5>Employer / Employee Name</h5>
+        <input type="text box" placeholder="First Name"required><br>
+        <input type="text box" placeholder="Last Name"required><br>
+        <input type="text box" placeholder="Full Name"required><br><br>
+      	<h5>Employer ID No.</h5>
+        <input type="text box" placeholder="IDxxxxxxxx"required></br><br>
+      	<h5>Employer Position<h5>
+        <input type="text box" placeholder="Example:HR Manager"required><br><br>
+      	<h5>Employer Type</h5>
+        <input type="Radio" name="type" value="Permenant"required>Permenant</br>
+        <input type="Radio" name="type" value="Contract"required>Contract</br><br>
+      	<h5>Phone Number</h5>
+        <input type="text box" placeholder="Area code"> - <input type="text box" placeholder="phone number"><br><br>
+      	<h5>Address</h5>
+        <input type="text box" placeholder="Street address 1"><br>
+        <input type="text box" placeholder="Street address 2"><br>
+        <input type="text box" placeholder="city"><br>
+      	<input type="text box" placeholder="state/province"><br>
+        <input type="text box" placeholder="portal/zip code"><br>
+        <input type="dropzone" placeholder="select country"><br><br>
+      	<h5>Email</h5>
+        <input type="email" placeholder="example@example.com"required><br><br>
+      	<h5>Date of Birth</h5>
+        <input type="date" placeholder="12 may 1998"><br><br>
+      	<h5>Gender</h5>
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" value="female">Female<br><br>
+      	<h5>password</h5>
+        <input type="password" placeholder="Password" required>
+        <input type="password" placeholder="Re-Enter Password" required><br><br>
+      	<h5>Upload Avatar</h5>
+        <input type="file" ><br><br><br>
+        <input type="checkbox" checked>By clicking <b>SUBMIT</b> I agree to <a href="terms.html">Terms of services </a>and <a id="terms" href="privacy.html">Privacy Policy</a><br><br>
+        <button onclick=myFunction()> SUBMIT </button>
+        <p>Already Registerd?</p>
+        <a href="login.html">Login</a>
+	</form>
+  </center>
+</section>
+
+
+
+
+
+<!--footer Here-->
+<footer>
+  <div class="footerrow">
+    <div class="footercolumn">
+      <h4>About Us</h4>
+    </div>
+    <div class="footercolumn">
+      <p class="p5">Address : P.O.BOX. No.xxxxx,<br>xxxxxxxxxxx,<br>xxxxxxxxxx.</p>
+    </div>
+    <div class="footercolumn">
+      <p class="p5">Tele. No.: +94xxxxxxxxx<br>Fax No.: +94xxxxxxxxx</p>
+    </div>
+    <div class="footercolumn">
+      <p class="p5">Email : example@email.com</p>
+    </div>
+    <div class="footercolumn">
+      <p class="p5"><a href="mainreport.html">Report us</a></p>
+      <p class="p5"><a href="terms.html">Terms and Conditions</a></p>
+      <p class="p5"><a href="privacy.html">Privacy Policy</a></p>
+    </div>
+    <div class="footercolumn">
+      <img src="images/Facebook.png" onclick=social("facebook") class="footerico"/>
+      <img src="images/twitter.png" onclick=social("twitter") class="footerico"/>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>

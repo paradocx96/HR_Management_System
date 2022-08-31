@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="styles/login.css">
+  <script src="js/login.js"></script>
+</head>
+
+<body>
+<header>
+  <img src="images/logo.png">
+  <H1 class="absolute1">Human Resource<br>Management System</H1>
+</header>
+
+<!--Location and Search bar-->
+<hr class="hr1">
+
+<div class="firstnavi">
+  <a class="navi2" href="index.html">Home</a> >
+  <a class="navi2" href="login.html">Sign in</a>
+  <input type="text" placeholder="Search..">
+</div>
+
+<hr class="hr1">
+
+<!--Navigation bar-->
+<nav>
+  <ul class="navi1">
+    <li class="left1"><a class="navi11" href="dashboard.html">Dashboard</a></li>
+    
+    <li class="left1"><a class="navi11" href="mainreport.html">Report</a></li>
+    <li class="left1"><a class="navi11" href="contactus.html">Contact Us</a></li>
+    <li class="right1"><a class="navi11" href="login.html">Sign in</a></li>
+    <li class="right1"><a class="navi11" href="register.html">Sign up</a></li>
+  </ul>
+</nav>
+
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+<section>
+  <center>
+  <form class="formbackgroud">
+    <h3>Login</h3>
+    <h5>Username</h5>
+    <input type="text" placeholder="Enter Username" name="username" required><br>
+    <h5>Password</h5>
+    <input type="password" placeholder="Password" name="username" required><br><br>
+    <input type="checkbox" checked="checked" name="remember" required>Remember me<br><br><br>
+    <button type="submit" >Login</button>
+    <p>Forgot <a href="#">password?</a></p>
+  </center>
+  </form>
+</section>
+
+
+
+<!--footer Here-->
+<footer>
+  <div class="footerrow">
+    <div class="footercolumn">
+      <h4>About Us</h4>
+    </div>
+    <div class="footercolumn">
+      <p class="p5">Address : P.O.BOX. No.xxxxx,<br>xxxxxxxxxxx,<br>xxxxxxxxxx.</p>
+    </div>
+    <div class="footercolumn">
+      <p class="p5">Tele. No.: +94xxxxxxxxx<br>Fax No.: +94xxxxxxxxx</p>
+    </div>
+    <div class="footercolumn">
+      <p class="p5">Email : example@email.com</p>
+    </div>
+    <div class="footercolumn">
+      <p class="p5"><a href="mainreport.html">Report us</a></p>
+      <p class="p5"><a href="terms.html">Terms and Conditions</a></p>
+      <p class="p5"><a href="privacy.html">Privacy Policy</a></p>
+    </div>
+    <div class="footercolumn">
+      <img src="images/Facebook.png" onclick=social("facebook") class="footerico"/>
+      <img src="images/twitter.png" onclick=social("twitter") class="footerico"/>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
